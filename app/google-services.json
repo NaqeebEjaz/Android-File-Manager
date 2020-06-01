@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "940606895332",
+    "firebase_url": "https://androidfilemanager-b9969.firebaseio.com",
+    "project_id": "androidfilemanager-b9969",
+    "storage_bucket": "androidfilemanager-b9969.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940606895332:android:0d7e5b70a62a38f627a8f1",
+        "android_client_info": {
+          "package_name": "com.example.androidfilemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940606895332-9fe2pk4ndn77kj74k10b8tgmapakio8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidfilemanager",
+            "certificate_hash": "91033d83377039f3183d1e9ccb3137d586729986"
+          }
+        },
+        {
+          "client_id": "940606895332-2iahcn490362rq1g9o075lqk6ivolfmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidfilemanager",
+            "certificate_hash": "d547b5934fffb3bafc852a31168bf52088cf4b37"
+          }
+        },
+        {
+          "client_id": "940606895332-kuiphoe6ger7okpbu9g5egtt3s5ef0li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApou2OvECTZZAM9W5ma6v12Un-Agdp0tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940606895332-kuiphoe6ger7okpbu9g5egtt3s5ef0li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

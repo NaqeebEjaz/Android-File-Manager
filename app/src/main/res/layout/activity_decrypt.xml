@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/chita_background"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:id="@+id/tvFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FileName"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:layout_marginTop="7dp"
+            android:textColor="#0F0F0F"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etPasswordWrapper"
+                    app:passwordToggleEnabled="true"
+                    android:textColorHint="#0E0D0D">
+
+                    <EditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="315dp"
+                        android:layout_height="35dp"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:background="@drawable/rounded_edittext"
+                        android:textSize="24sp"
+                        android:textColor="@android:color/black"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </TableRow>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnDecrypt"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:text="Decrypt"
+                android:background="@drawable/button_background"
+                android:textSize="16sp"
+                />
+        </TableRow>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
